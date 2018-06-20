@@ -46,7 +46,7 @@ public class BaseExtentTest {
 		
 		logger = extent.createTest("AppOrangeHRMLogin");
 		//this will automatically opens the browser, maximize the browser
-		driver = BrowserFactory.getBrowser("Chrome");
+		driver = BrowserFactory.getBrowser("IE");
 										
 		//this will provide the URL from the config.properties file
 		driver.get(DataProviderFactory.getConfig().getApplicationurl());
